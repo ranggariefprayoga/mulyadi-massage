@@ -25,10 +25,6 @@ export const DataLayanan: LayananInterface[] = [
         nama: "\u2022 Pijat Tradisional",
         daftarDurasi: [
           {
-            durasi: "60 Menit",
-            harga: "100k",
-          },
-          {
             durasi: "90 Menit",
             harga: "150k",
           },
@@ -54,10 +50,6 @@ export const DataLayanan: LayananInterface[] = [
       {
         nama: "\u2022 Pijat Masuk Angin",
         daftarDurasi: [
-          {
-            durasi: "60 Menit",
-            harga: "100k",
-          },
           {
             durasi: "90 Menit",
             harga: "150k",
@@ -368,6 +360,22 @@ export const DataLayanan: LayananInterface[] = [
   },
   {
     id: 5,
+    gambarUtama: "layanan/kejantanan.jpeg",
+    namaLayanan: "Pijat Vitalitas dan Kejantanan",
+    paket: [
+      {
+        nama: "\u2022 Pijat Vitalitas/Kejantanan",
+        daftarDurasi: [
+          {
+            durasi: "120 Menit",
+            harga: "500k",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 6,
     gambarUtama: "layanan/pijat-hamil.jpg",
     namaLayanan: "Paket Ibu Hamil",
     paket: [
@@ -400,7 +408,7 @@ export const DataLayanan: LayananInterface[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     gambarUtama: "layanan/pengantin.jpeg",
     namaLayanan: "Paket Pengantin",
     paket: [
@@ -439,19 +447,10 @@ export const DataLayanan: LayananInterface[] = [
           },
         ],
       },
-      {
-        nama: "\u2022 Pijat Vitalitas/Kejantanan",
-        daftarDurasi: [
-          {
-            durasi: "120 Menit",
-            harga: "400k",
-          },
-        ],
-      },
     ],
   },
   {
-    id: 7,
+    id: 8,
     gambarUtama: "layanan/bekam.jpeg",
     namaLayanan: "Paket Bekam",
     paket: [
@@ -489,7 +488,7 @@ export const DataLayanan: LayananInterface[] = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     gambarUtama: "layanan/additional.jpg",
     namaLayanan: "Additional",
     paket: [
